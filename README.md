@@ -10,7 +10,7 @@ a. Get a token to cope with my MFA
 b. Apply in command line in the git repo type : 
    
      # save the credentials entered
-     git config --global credential.helper wincred
+        git config --global credential.helper wincred
      
      # Change README.md and commit 
      echo "adding a line" >> README.md
