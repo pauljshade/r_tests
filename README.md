@@ -14,16 +14,16 @@ b. Apply in command line in the git repo type
    *save the credentials entered*   
    **git config --global credential.helper wincred**
    
-   *Change README.md and commit*
+   *Change README.md and commit*   
    **echo "adding a line" >> README.md**
    **git add -A**
    **git commit -m "A commit from my local computer"**
    
-   *Push*
+   *Push*   
    **git push -u origin master**
    **[put in credentials for the last time userid and token]**
    
-   *Test*
+   *Test*   
    **git push**
       
       
